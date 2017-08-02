@@ -1,0 +1,19 @@
+{
+  "name": "micro-redux",
+  "version": "1.0.0",
+  "description": "A super simple approach to some of the ideas behind Redux, including some sort of time-travel debugging.",
+  "main": "micro-redux.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Redux",
+    "time-travel-debugging",
+    "simple"
+  ],
+  "author": "Diego Villaseñor",
+  "license": "ISC",
+  "dependencies": {
+    "ramda": "^0.24.1"
+  }
+}
