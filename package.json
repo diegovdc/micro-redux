@@ -1,6 +1,6 @@
 {
   "name": "micro-redux",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A super simple approach to some of the ideas behind Redux, including some sort of time-travel debugging.",
   "main": "micro-redux.js",
   "scripts": {
