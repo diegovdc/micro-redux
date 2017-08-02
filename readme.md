@@ -1,7 +1,5 @@
 # micro-redux
-Because right now I do not have enought time to learn Redux.
-
-A super simple approach to some of the ideas behind Redux, including some sort of time-travel debugging.
+Because right now I do not have enought time to learn Redux: A super simple approach to some of the ideas behind Redux, including some sort of time-travel debugging.
 
 ## Usage
 ```
@@ -30,7 +28,7 @@ action('increment')//{counter: 3, _log:[{type: 'increment', value: undefined, St
 //component.js
 import {action}
 
-const Counter = (counter) => (
+const Counter = ({counter}) => (
 	<button onClick={action('increment')}>Increment</button>
 	Count is at: {counter}
 )
